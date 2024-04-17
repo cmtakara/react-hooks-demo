@@ -1,9 +1,9 @@
 import { useState, useReducer } from 'react';
 import TextInput from './TextInput';
 import ActionButton from './ActionButton';
-
 import PartyMember from './PartyMember';
-import partyReducer from '../reducers/partyReducer'
+import partyReducer from '../reducers/partyReducer';
+import './styles.css';
 
 export default function AdventureParty () {
     const [name, setName] = useState("");
