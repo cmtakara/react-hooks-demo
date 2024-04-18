@@ -12,6 +12,9 @@ function Nav () {
             <Link to="/usereducer">
                 <div>useReducer Example</div>
             </Link>
+            <Link to="/usecontext">
+                <div>useContext Example</div>
+            </Link>
         </div>
     )
 }
